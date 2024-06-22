@@ -23,7 +23,7 @@
             padding: 2rem;
         }
 
-        #about, #projects, #skills, #contact {
+        section:not(:last-child) {
             border-bottom: 1px solid #ccc;
         }
 
@@ -71,8 +71,30 @@
         <h2>About Me</h2>
         <p>Brief introduction about yourself.</p>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
+    <section id="cv">
+        <h2>CV</h2>
+        <p><a href="path/to/your/cv.pdf" target="_blank">Download my CV</a></p>
+    </section>
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>Tool 1</li>
+            <li>Tool 2</li>
+            <li>Tool 3</li>
+            <!-- Add more tools as needed -->
+        </ul>
+    </section>
+    <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li>Course 1</li>
+            <li>Course 2</li>
+            <li>Course 3</li>
+            <!-- Add more courses as needed -->
+        </ul>
+    </section>
+    <section id="examples-of-my-work">
+        <h2>Examples of my work</h2>
         <div class="project">
             <h3>Project Title 1</h3>
             <p>Description of the project. Technologies used, etc.</p>
@@ -82,6 +104,15 @@
             <p>Description of the project. Technologies used, etc.</p>
         </div>
         <!-- Add more projects as needed -->
+    </section>
+    <section id="books">
+        <h2>Books I have read</h2>
+        <ul>
+            <li>Book 1</li>
+            <li>Book 2</li>
+            <li>Book 3</li>
+            <!-- Add more books as needed -->
+        </ul>
     </section>
     <section id="skills">
         <h2>Skills</h2>
@@ -93,4 +124,12 @@
         </ul>
     </section>
     <section id="contact">
-        <h2>Contact<
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tun Tun Aung</p>
+    </footer>
+</body>
+</html>
